@@ -6,7 +6,6 @@ const app = express();
 app.use(express.json());
 
 app.post('/hiv', async (req, res) => {
-req.query.sabia;
     res.send('ola');
   } catch (error) {
     console.error(error);
